@@ -31,6 +31,8 @@
         <div class="median-output"> </div>
         <button id="mean">mean </button>
         <div class="mean-output"> </div>
+         <button id="mode">mean </button>
+        <div class="mode-output"> </div>
     </div>
 </body>
 <script>
@@ -106,6 +108,9 @@
             getArray();
         });
         $('#mean').click(function() {
+            mean();
+        });
+         $('#mode').click(function() {
             mean();
         });
     });
