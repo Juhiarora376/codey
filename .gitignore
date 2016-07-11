@@ -2,5 +2,6 @@ node_modules/
 .sass-cache/
 build/
 src/public/styles/css/
+src/public/styles/css/*.*
 .DS_Store
 src/public/styles/css/custom.css.map
